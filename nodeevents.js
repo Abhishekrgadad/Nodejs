@@ -10,3 +10,7 @@ myEmitter.on('waterfull', ()=>{
         console.log("Please turn off the motor its an gentle remainder");
     }, 3000);
 });
+
+console.log("The script is running");
+console.log("The script is still running");
+myEmitter.emit('waterfull');
